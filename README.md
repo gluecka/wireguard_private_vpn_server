@@ -5,7 +5,7 @@
 <a href=https://www.oracle.com/de/virtualization/technologies/vm/downloads/virtualbox-downloads.html>Oracle VirtualBox Download Page</a><br>
 
 <h3>Deploy the virtuell Linux Server LTS</h3>
-<a href=(https://ubuntu.com/download/server)>Linux Ubuntu 26.04. liver server LTS .iso Download Page</a>
+<a href=https://ubuntu.com/download/server>Linux Ubuntu 26.04. liver server LTS .iso Download Page</a><br>
 
 <p>Create a new virtuell machine with the Linux .iso on VMBox.<br>
 Set the installation configuration EFI and guest on YES.<br>
