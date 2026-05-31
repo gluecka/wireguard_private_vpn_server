@@ -46,7 +46,7 @@ RESTART VM machine</p>
 <span><em>run: -->   </em></span><span>apt-get install wireguard</span><br>
 
 <h3>Wireguard Configuration IP-Forwarding</h3>
-<span><em>directory: -->   </em></span><span>/etc/system.d</span><br>
+<span><em>directory: -->   </em></span><span>/etc/sysctl.d</span><br>
 <p>Copy the file '99-wireguard.conf' from the repository in the defined directory</p>
 <span><em>run: -->   </em></span><span>chmod 600 99-wireguard.conf</span><br>
 
@@ -80,6 +80,9 @@ RESTART VM machine</p>
 <span><em>run: -->   </em></span><span>systemctl start ufw</span><br>
 <span><em>run: -->   </em></span><span>systemctl enable ufw</span><br>
 <span><em>run: -->   </em></span><span>systemctl status ufw</span><br><br>
+
+<span><em>run: -->   </em></span><span>ufw enable</span><br>
+<span><em>run: -->   </em></span><span>ufw status</span><br><br>
 
 <span><em>run: -->   </em></span><span>ufw allow 51820/udp</span><br>
 <span><em>run: -->   </em></span><span>ufw allow 22/tcp</span><br><br>
