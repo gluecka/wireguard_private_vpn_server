@@ -111,7 +111,7 @@ RESTART VM machine</p>
 
 <h3>QR-Code Peering</h3>
 <p>Peer a Client easy with an QR-Code:</p>
-<span><em>run: -->   </em></span><span>apt-get install quencode</span><br>
+<span><em>run: -->   </em></span><span>apt-get install qrencode</span><br>
 <span><em>directory: -->   </em></span>/etc/wireguard/<span></span><br><br>
 <p>Show QR-Code in shell</p>
 <span><em>run: -->   </em></span><span>qrencode -t ansiutf8 < /etc/wireguard/wg0.conf</span><br><br>
