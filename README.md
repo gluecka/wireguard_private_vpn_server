@@ -1,5 +1,5 @@
 <h1>Wireguard Private VPN-Server</h1>
-<p><b>This is the description to build and configure a private Wireguard VPN Server running on a virtuell Linux machine provided of VMBox.</b></p>
+<p><b>This is the description to build and configure a private Wireguard VPN Server running on a virtuell Linux machine provided of VMBox. It also possible to use this Server for Linux Server.</b></p>
 
 <h3>Install the provider of the virtuell machine</h3>
 <a href=https://www.oracle.com/de/virtualization/technologies/vm/downloads/virtualbox-downloads.html>Oracle VirtualBox Download Page</a><br>
